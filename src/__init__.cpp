@@ -15,3 +15,11 @@ void print_logo() {
     )";
     std::cout << logo.c_str() << std::endl;
 }
+
+void print_options() {
+    std::string options = R"(
+ [INFO] 操作信息
+ 1. SSH登录破解
+ 2.
+    )";
+}
